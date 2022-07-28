@@ -1,0 +1,61 @@
+.continent {
+	/* fill: #ededed; */
+	stroke: #d0d0d0;
+	stroke-width: 0.8;
+
+}
+
+
+#header{
+	background-image: "url(https://duckduckgo.com/?q=bobs+burger+logo&t=newext&atb=v291-1&iax=images&ia=images&iai=https%3A%2F%2Fi.cdn.tbs.com%2Fassets%2Fimages%2F2017%2F03%2FBobsBurgers-Logo-900x360.png)";
+}
+.dark-continent {
+	fill: #906565;
+	stroke: #bbbbbb;
+}
+
+.graticule {
+	stroke: rgb(222, 222, 222);
+	stroke-width: 0.5;
+}
+
+.grid {
+	fill: none;
+	stroke: #333;
+}
+
+.circles {
+    stroke: #555155;
+    stroke-width: 0;
+}
+
+.c2 {
+	stroke-width: 0.5;
+}
+
+.non-c2 {
+	stroke-width: 0.5
+}
+
+.diamonds {
+    stroke-width: 0;
+}
+
+.labels {
+	font-family: sans-serif;
+	font-size: 12px;
+	/* fill: #3c373d; */
+}
+
+.tooltip {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    visibility: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 9pt;
+    background-color:rgba(246,201,0,0.4);
+    padding: 2px;
+    pointer-events: none;
+}
